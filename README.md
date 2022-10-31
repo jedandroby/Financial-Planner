@@ -2,7 +2,7 @@
 
 Challenge 5 for fintech bootcamp through UC Berkeley. Using pandas and Monte Carlo(MC) simulations to help analyze a portfolio and predict its future return in 'x' amount of years, as well as adjusting for the optimal weight among assets in the portfolio.
 
-This python notebook `financial_planning_tools.ipynb` located in the 'Code' directory takes in a mock portfolio, with a crypto mix of some BTC/ETH and a stock/bond mix with SPY/AGG, and then it goes ahead and does some analysis so it can run some MC simulations and predict where to invest to maximize return while minimizing risk. 
+This python notebook `financial_planning_tools.ipynb` is located in the 'Code' directory . The notebook takes in a mock portfolio with a crypto mix of some BTC/ETH and a stock/bond mix with SPY/AGG. Data is then brought in from Alpaca's API so I could run some MC simulations and predict where to invest to maximize return while minimizing risk. 
 
 This notebook could easily be used and adjusted to a different portfolio, adjusting the values and pulling in different data from the API's to help analyze more portfolio's and run some future expectations on where the returns could go.
 
@@ -10,7 +10,7 @@ This notebook could easily be used and adjusted to a different portfolio, adjust
 
 ## Technologies
 
-To use the above mentioned notebook, make sure you have these packages and versions or higher installed in your dev environment:
+To use the above mentioned notebook, make sure you have these packages and versions or higher installed in your dev environment, if you dont have a dev environment skip to below then come back:
 
 ![version watermark from notebook](./Code/Images/versions.png) 
 
@@ -53,9 +53,9 @@ Next will be the same results for the 10 year 80/20 MC simulation.
 ![10 year dist and sum](./Code/Images/dist_sum10y.png)
 ![10 year expectation](./Code/Images/10yexpect.png)
 
-By looking over these results, both for the 30 year MC and 10 year MC, we can expect there to be little risk with losing your money over the 10-30 year time frame. We can see some pretty good increases in value over both timeframes. One of the questions for this analysis was whether this would be enough for employees to retire on. The answer would have to be a no in today’s economy. Especially if this is the employees only investment/retirement. They would need to do the 10y strategy for 20-30 years with some good returns and smart decisions as well. 
+By looking over these results, both for the 30 year MC and 10 year MC, we can expect there to be little risk with losing your money over the 10-30 year time frame. We can see some pretty good increases in value over both timeframes. One of the questions for this analysis was whether this would be enough for employees to retire on. The answer would have to be a no in today’s economy. Especially if this is the employees only investment/retirement. They would need to do the 10 year strategy for 20-30 years with some good returns and smart decisions as well. 
 
-One part that is lacking from these results would be the hypothetical values of the crypto positions during the same 10-30 years. They could definitely play a role in potentially allowing the employee to retire after the 10 or 30 year timeframe depending on the circumstances. 
+One part that is lacking from these results would be the hypothetical values of the crypto positions during the same 10-30 years. They could definitely play a role in potentially allowing the employee to retire after the 10 or 30 year timeframe depending on the circumstances. Especially given BTC's current return over the last 10 years. We obviously cant expect the same type of return, but something in a 10-20x increase over the next 10 years wouldn't be unheard off in the Bitcoin and crypto world. 
 
 ---
 
